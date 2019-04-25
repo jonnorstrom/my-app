@@ -5,6 +5,8 @@ import '../css/Note.css'
 class Note extends Component {
   constructor() {
     super()
+
+    console.log(this.props)
   }
 
   render() {
